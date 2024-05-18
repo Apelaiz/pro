@@ -27,13 +27,13 @@ console.log(responsive)
 let service1 = prompt ("Какой сервис нужен?")
 console.log(service1)
 
-let servicePrice1 = prompt("Сколько это будет стоить?")
+let servicePrice1 = +prompt("Сколько это будет стоить?")
 console.log(servicePrice1)
 
-let service2 = promt ("Какой ещё сервис тебе нужен?")
+let service2 = prompt ("Какой ещё сервис тебе нужен?")
 console.log(service2)
 
-let servicePrice2 = prompt("Сколько будет стоить этот второй сервис?")
+let servicePrice2 = +prompt("Сколько будет стоить этот второй сервис?")
 console.log(servicePrice2)
 
 // math
