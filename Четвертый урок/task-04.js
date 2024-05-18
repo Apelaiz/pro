@@ -36,6 +36,26 @@ console.log(service2)
 let servicePrice2 = prompt("Сколько будет стоить этот второй сервис?")
 console.log(servicePrice2)
 
+// math
 let fullPrice = screenPrice + servicePrice1 + servicePrice2
 console.log(fullPrice)
 
+let serviceResault = +(fullPrice * (percentage / 100))
+console.log(serviceResault, "Процент подрядчику: ")
+
+let servicePercentPrise = fullPrice - serviceResault
+console.log(Math.ceil (servicePercentPrise), "Сумма с вычетом процента")
+
+// Discounts
+
+if(fullPrice > 50000) {
+    console.log("Скидка 10%");
+} else if (fullPrice > 20000 && fullPrice < 50000) {
+    console.log("Сделаем скидку 5%")
+} else if (fullPrice <20000 && fullPrice > 0) {
+    console.log("Скидка не предусмотрена")
+} else if (fullPrice < 0) {
+    console.log("Что-то пошло не так")
+} else if (fullPrice === 0 | fullPrice === 20000 | fullPrice === 50000) {
+    console.log("Любой текст по желанию")
+}
