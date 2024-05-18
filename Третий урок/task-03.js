@@ -8,6 +8,6 @@
 let titleProject = "Калькулятор"
 let ScreensValue = "Шаблоны, с уникальным дизайном, с анимациями"
 let screenPrice = 10000
-let percentage = 5
+let percentage = 10
 let fullPrice = 50000
 let responsive = true
